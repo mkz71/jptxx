@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navigation {
+    position: fixed;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center; 
+
+    min-width: 100%;
+    
+    background-color: #dd6363;
+    box-shadow: 0 1px 3px #4f2835;
+}
+
+.brand {
+    padding: .5rem;
+
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.toggle {
+    min-width: 48px;
+    min-height: 48px;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    color: black;
+    transition: color .25s ease;
+}
+
+.toggle:hover {
+    color: whitesmoke;
+}
+
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    /* height: 10rem;
+    transition: height .5s ease; */
+}
+
+/* .collapsing {
+    height: 0rem;
+    transition: height .5s ease;
+} */
+
+.navMenu_collapsed {
+    display: none;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 80%;
+    min-height: 48px;
+
+    font-size: 1.25rem;
+    text-decoration: none;
+
+    color: #301515;
+
+    transition: all .25s ease;
+}
+
+.link:hover {
+    color: white;
+}
+
+.content {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    /* max-width: 30rem; */
+
+    overflow: auto;
+}

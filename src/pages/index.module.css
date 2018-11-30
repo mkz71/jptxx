@@ -1,0 +1,15 @@
+html, body {
+    overflow: hidden;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+
+    background-image: url(http://eat24hours.com/files/cuisines/v4/chinese.jpg?e24v=103?e24v=178?e24v=178);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
+/* Set top navbar padding individually for pages */

@@ -8,7 +8,7 @@ public_folder: assets
 collections: 
   - name: menu
     label: Menu Items
-    folder: menu_items
+    folder: menu-items
     create: true
     fields: 
       - { name: path, label: Path }
@@ -27,4 +27,4 @@ collections:
                     "Combo"] }
       - { name: price, label: Large Size Price}
       - { name: smallPrice, label: Small Size Price, required: false}
-      - { name: description,  label: Item Description, widget: markdown }
+      - { name: body,  label: Item Description, widget: markdown }

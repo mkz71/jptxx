@@ -25,6 +25,6 @@ collections:
                     "Egg Foo Young",
                     "American",
                     "Combo"] }
-      - { name: price, label: Large Size Price}
+      - { name: price, label: Large Size Price, widget: number}
       - { name: smallPrice, label: Small Size Price, required: false}
       - { name: description,  label: Item Description, widget: markdown }

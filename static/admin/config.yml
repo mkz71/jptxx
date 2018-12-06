@@ -5,25 +5,26 @@ backend:
 media_folder: static/assets
 public_folder: assets
 
-collections:
-  - name: blog
-    label: Blog
-    folder: blog
-    create: true
-    fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+# collections:
+#   - name: blog
+#     label: Blog
+#     folder: blog
+#     create: true
+#     fields:
+#       - { name: path, label: Path }
+#       - { name: date, label: Date, widget: date }
+#       - { name: title, label: Title }
+#       - { name: body, label: Body, widget: markdown }
   - name: menu
     label: Menu Items
     folder: menu_items
     create: true
     fields: 
       - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
-      # Category. Also date probably not needed
-      - { name: name, label: Name }
+      - { name: title, label: Title }
+      #- { name: name, label: Name }
+      - { name: category, label: Category, widget: select, 
+      options: ["Soup", "Appetizer"] }
       - { name: price, label: Large Size Price} #Look at widget types
       - { name: smallPrice, label: Small Size Price, required: false}
       - { name: description,  label: Item Description, widget: markdown }

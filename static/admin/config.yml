@@ -13,26 +13,18 @@ collections:
     fields: 
       - { name: path, label: Path }
       - { name: title, label: Title }
-      #- { name: name, label: Name }
       - { name: category, label: Category, widget: select, 
-      options: ["Soup", "Appetizer"] }
-      - { name: price, label: Large Size Price} #Look at widget types
+          options: ["Soup",
+                    "Appetizer", 
+                    "House Specialties", 
+                    "Seafood", 
+                    "Poultry,",
+                    "Pork",
+                    "Vegetable",
+                    "Fried Rice/Chow Mein/Lo Mein",
+                    "Egg Foo Young",
+                    "American",
+                    "Combo"] }
+      - { name: price, label: Large Size Price}
       - { name: smallPrice, label: Small Size Price, required: false}
       - { name: description,  label: Item Description, widget: markdown }
-
-# Categories: e.g. Chicken, Beef, American, etc
-# Title/Name of item
-# Description of item
-# Small Price (optional)
-# Large/Deault Price (required)
-
-# collections:
-#   - name: blog
-#     label: Blog
-#     folder: blog
-#     create: true
-#     fields:
-#       - { name: path, label: Path }
-#       - { name: date, label: Date, widget: date }
-#       - { name: title, label: Title }
-#       - { name: body, label: Body, widget: markdown }

@@ -28,7 +28,7 @@ class MobileLayout extends Component {
                     </button>
                     <ul className={this.state.collapsed ? styles.navMenu_collapsed : styles.navMenu}>
                         <Link to="/" className={styles.link}>Home</Link>
-                        <Link to="/menu/" className={styles.link}>Menu</Link>
+                        <Link to="/Menu/menu" className={styles.link}>Menu</Link>
                         <Link to="/combos/" className={styles.link}>Combos</Link>
                         <Link to="/gallery/" className={styles.link}>Gallery</Link>
                         <Link to="/about/" className={styles.link}>About</Link>

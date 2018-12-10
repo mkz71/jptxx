@@ -41,6 +41,8 @@ html, body {
 
 @media screen and (max-width: 995px) {
     .heroText {
-        font-size: 2rem;
+        padding: .5rem;
+
+        font-size: 1.75rem;
     }
 }

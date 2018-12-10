@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../../components/Layout/layout.js";
 import styles from "./menu.module.css";
 import { graphql } from "gatsby";
+import Item from "./item.js";
 
 const Menu = ({ data }) => {
     const sections = [
@@ -32,18 +33,8 @@ const Menu = ({ data }) => {
                             </header>
                             {
                                 data.allMarkdownRemark.edges.map(element => {
-                                    const { title, price, smallPrice, description, category } = element.node.frontmatter;
-                                    if (category === section.title) {
-                                        return (
-                                            <div className={styles.menuItem}>
-                                                <span className={styles.itemHeader}>
-                                                    <h1 className={styles.itemName}>{title}</h1>
-                                                    {smallPrice ? <p className={styles.price}>M: {smallPrice}</p> : ""}
-                                                    <p className={styles.price}>L: {price}</p>
-                                                </span>
-                                                {description ? <p className={styles.description}>{description}</p> : ""}
-                                            </div>
-                                        )
+                                    if (element.node.frontmatter.category === section.title) {
+                                        return <Item frontmatter={element.node.frontmatter} />
                                     }
                                 })
                             }
@@ -74,6 +65,3 @@ export const query = graphql`
     }
 `
 export default Menu;
-
-// Use loop to create each section
-// Refactor menu items into components

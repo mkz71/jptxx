@@ -3,7 +3,22 @@ html, body {
     overflow-y: hidden !important;
 }
 
+@keyframes fadeInFromTop {
+    from {
+      transform: translateY(-200%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
 .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     height: 100%;
     width: 100%;
 
@@ -12,3 +27,20 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
 } 
+
+.heroText {
+    animation-duration: 1s;
+    animation-name: fadeInFromTop;
+
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #222;
+    color: #DDD;
+}
+
+@media screen and (max-width: 995px) {
+    .heroText {
+        font-size: 2rem;
+    }
+}

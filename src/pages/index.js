@@ -16,6 +16,7 @@ export default () => (
         </Helmet>
         {/* Change to gatsby image later */}
         <div className={styles.hero}>
+            <h1 className={styles.heroText}>Serving fantastic Chinese food since 1996</h1>
         </div>
     </Layout>
 )

@@ -33,8 +33,18 @@ const Menu = ({ data }) => {
                             </header>
                             {
                                 data.allMarkdownRemark.edges.map(element => {
-                                    if (element.node.frontmatter.category === section.title) {
-                                        return <Item frontmatter={element.node.frontmatter} />
+                                    const { title, price, smallPrice, description, category } = props.frontmatter;
+                                    if (category === section.title) {
+                                        return (
+                                            <div className={styles.menuItem}>
+                                            <span className={styles.itemHeader}>
+                                                <h1 className={styles.itemName}>{title}</h1>
+                                                {smallPrice ? <p className={styles.price}>M: {smallPrice}</p> : ""}
+                                                <p className={styles.price}>L: {price}</p>
+                                            </span>
+                                            {description ? <p className={styles.description}>{description}</p> : ""}
+                                        </div>
+                                        )
                                     }
                                 })
                             }

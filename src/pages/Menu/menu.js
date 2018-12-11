@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../../components/Layout/layout.js";
 import styles from "./menu.module.css";
 import { graphql } from "gatsby";
-import Item from "./item.js";
 
 const Menu = ({ data }) => {
     const sections = [
@@ -33,7 +32,7 @@ const Menu = ({ data }) => {
                             </header>
                             {
                                 data.allMarkdownRemark.edges.map(element => {
-                                    const { title, price, smallPrice, description, category } = props.frontmatter;
+                                    const { title, price, smallPrice, description, category } = element.node.frontmatter;
                                     if (category === section.title) {
                                         return (
                                             <div className={styles.menuItem}>

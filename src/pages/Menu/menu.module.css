@@ -46,6 +46,7 @@
 
 .itemName {
     width: 70%;
+    margin-bottom: 0 !important;
 
     font-size: 1.25rem;
 }
@@ -54,10 +55,14 @@
     display: inline-block;
 
     width: 15%;
+    margin-bottom: 0 !important;
+
     font-size: 1.25rem;
 }
 
 .description {
+    margin-bottom: 0 !important;
+
     font-style: italic;
 }
 

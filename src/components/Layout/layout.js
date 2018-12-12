@@ -8,7 +8,7 @@ class Layout extends Component {
         super(props);
         this.handleWindowSizeChange = this.handleWindowSizeChange.bind(this);
         this.state = {
-            width: 0
+            width: 996
         }
     }
 

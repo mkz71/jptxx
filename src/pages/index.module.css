@@ -5,7 +5,7 @@ html, body {
 
 @keyframes fadeInFromTop {
     from {
-      transform: translateY(-200%);
+      transform: translateY(-50%);
       opacity: 0;
     }
     to {

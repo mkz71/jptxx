@@ -3,8 +3,8 @@ module.exports = {
         {
             resolve: `gatsby-source-filesystem`,
             options: {
-                path: `${__dirname}/menu-items`,
-                name: "menu-items"
+                name: "menu-items",
+                path: `${__dirname}/menu-items`
             }
         },
         `gatsby-transformer-remark`,
@@ -17,3 +17,5 @@ module.exports = {
         `gatsby-plugin-netlify-cms`
     ]
 }
+
+//gatsby-plugin-sharp, gatsby-transformer-sharp, gatsby-image

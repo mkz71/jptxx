@@ -37,10 +37,9 @@ class Layout extends Component {
                     <div className={styles.sidebar}>
                         <nav className={styles.navigation}>
                             <h1 className={styles.brand}>FORMOSA CAFE</h1>
-                            <p className={styles.subheader}>A family-owned Chinese Restaurant.</p>
+                            <p className={styles.subheader}>A family-owned restaurant serving authentic and traditional Chinese dishes for both pick-up and delivery.</p>
                             <Link to="/" className={styles.link}>Home</Link>
-                            <Link to="/Menu/menu"className={styles.link}>Menu</Link>
-                            <Link to="/about/"className={styles.link}>About</Link>
+                            <Link to="/menu"className={styles.link}>Menu</Link>
                             <Link to="/contact/"className={styles.link}>Contact Us</Link>
                         </nav>
                     </div>

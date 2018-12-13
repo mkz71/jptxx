@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../../components/Layout/layout.js";
-import styles from "./menu.module.css";
+import Layout from "../components/Layout/layout.js";
+import styles from "../styles/menu.module.css";
 import { graphql } from "gatsby";
 
 const Menu = ({ data }) => {

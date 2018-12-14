@@ -10,13 +10,9 @@
     flex-flow: row wrap;
     justify-content: space-between;
 
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     width: 100%;
     border-bottom: 2px solid #ddb1b1;
-}
-
-.aboutHeader {
-    /* font-size: 1.25rem; */
 }
 
 .aboutInfo {
@@ -51,7 +47,11 @@
     width:100%;
 }
 
-@media screen and (max-width: 965px) {
+@media screen and (max-width: 1210px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+
     .contactContainer {
         padding: 15% 5% 0 5%;
     }

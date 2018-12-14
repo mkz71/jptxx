@@ -10,13 +10,13 @@
     flex-flow: row wrap;
     justify-content: space-between;
 
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
     width: 100%;
     border-bottom: 2px solid #ddb1b1;
 }
 
 .aboutHeader {
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
 }
 
 .aboutInfo {

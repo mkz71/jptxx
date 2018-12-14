@@ -86,6 +86,10 @@
 
     transition: all .25s ease;
 }
+.link:nth-child(2) {
+    border-top: 1px solid #a54a4a;
+    border-bottom: 1px solid #a54a4a;
+}
 
 .link:hover {
     color: white;

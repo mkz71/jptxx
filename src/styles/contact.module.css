@@ -1,0 +1,85 @@
+.contactContainer {
+    padding: 5% 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    padding-bottom: 2rem;
+    width: 100%;
+    border-bottom: 2px solid #ddb1b1;
+}
+
+.aboutHeader {
+    font-size: 1.25rem;
+}
+
+.aboutInfo {
+    width: 60%;
+}
+
+.aboutInfo p {
+    margin: 1rem 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    width: 40%;
+}
+
+.contactSection {
+    margin-bottom: 4rem;
+}
+
+.contactSection h1 {
+    margin-bottom: .5rem;
+}
+
+.contactMap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80%;
+    width:100%;
+}
+
+@media screen and (max-width: 965px) {
+    .contactContainer {
+        padding: 15% 5% 0 5%;
+    }
+
+    .about {
+        border: none;
+    }
+
+    .aboutInfo {
+        min-width: 100%;
+        border-bottom: 2px solid #ddb1b1;
+        margin-bottom: 1rem;
+    }
+
+    .contact {
+        display: flex;
+
+        margin: 0;
+        padding-left: 0;
+        min-width: 100%;
+        min-height: 50%;
+    }
+
+    .contactSection {
+        margin-bottom: 2rem;
+    }
+
+    .contactMap {
+        display: none;
+    }
+}

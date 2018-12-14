@@ -23,7 +23,6 @@
 }
 
 .brand {
-    
     padding: .5rem;
     margin: 0;
 
@@ -46,6 +45,7 @@
 
 .toggle:hover {
     color: whitesmoke;
+    transition: color .25s ease;
 }
 
 .navMenu {
@@ -55,21 +55,11 @@
 
     margin: 0 !important;
     width: 100%;
-
-    /* height: 10rem;
-    transition: height .5s ease; */
 }
-
-/* .collapsing {
-    height: 0rem;
-    transition: height .5s ease;
-} */
 
 .navMenu_collapsed {
     display: none;
     height: 0px;
-
-    /* transition: all .5s ease; */
 }
 
 .link {

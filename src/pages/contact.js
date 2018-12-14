@@ -42,5 +42,3 @@ const Contact = () => (
 )
 
 export default Contact;
-
-// Restructure all 3 parts in one container, use row wrap

@@ -28,5 +28,4 @@ collections:
                     "American",
                     "Combo"] }
       - { name: price, label: Large Size Price}
-      - { name: smallPrice, label: Small Size Price (optional), required: false}
       - { name: description,  label: Item Description, widget: markdown, required: false }

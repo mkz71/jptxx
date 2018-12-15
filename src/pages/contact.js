@@ -6,7 +6,7 @@ import styles from "../styles/contact.module.css";
 const Contact = () => (
     <Layout>
         <Helmet>
-            <Title>Formosa Cafe</Title>
+            <title>Formosa Cafe</title>
             <meta 
                 name="description"
                 content="Formosa Cafe is the Fredericksburg, VA area’s best restaurant for 

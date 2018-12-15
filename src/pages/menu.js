@@ -24,7 +24,7 @@ const Menu = ({ data }) => {
     return (
         <Layout>
             <Helmet>
-                <Title>Formosa Cafe</Title>
+                <title>Formosa Cafe</title>
                 <meta 
                     name="description"
                     content="Formosa Cafe is the Fredericksburg, VA area’s best restaurant for 

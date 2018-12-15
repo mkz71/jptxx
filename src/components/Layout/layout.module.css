@@ -20,6 +20,7 @@
     width: 20%;
 
     background-color: #dd6363;
+    box-shadow: 2px 0 5px #261111;
 
     transform: translateX(0%);
     transition: all 1s ease;

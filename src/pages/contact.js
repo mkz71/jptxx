@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet";
 import Layout from "../components/Layout/layout.js";
 import styles from "../styles/contact.module.css";
 
+console.log(styles);
+
 const Contact = () => (
     <Layout>
         <Helmet>
@@ -16,22 +18,22 @@ const Contact = () => (
         <div className={styles.contactContainer}>
             <div className={styles.about}>
                 <section className={styles.aboutInfo}>
-                    <h1 className={styles.aboutHeader}>Formosa Cafe is the Fredericksburg, VA area’s best restaurant for take-out and delivery authentic Chinese food.</h1>
-                    <p>Since 1996, our family-owned and operated restaurant serves a delectable menu that boasts over 125 dishes that includes the most authentic and traditional Chinese dishes in the area. We offer fast and friendly service whether you decide to have your meal delivered or choose to pick it up at our convenient location.</p>
-                    <p>Addtionally, Formosa Café has been offering complete catering services. Contact us to help plan your next party or event. Our catering menu offers a variety of traditional, authentic Chinese dishes, and we will deliver to your home, office, school or banquet hall.</p>
+                    <h1 className={styles.contactHeader}>Formosa Cafe is the Fredericksburg, VA area’s best restaurant for take-out and delivery authentic Chinese food.</h1>
+                    <p className={styles.aboutParagraph}>Since 1996, our family-owned and operated restaurant serves a delectable menu that boasts over 125 dishes that includes the most authentic and traditional Chinese dishes in the area. We offer fast and friendly service whether you decide to have your meal delivered or choose to pick it up at our convenient location.</p>
+                    <p className={styles.aboutParagraph}>Addtionally, Formosa Café has been offering complete catering services. Contact us to help plan your next party or event. Our catering menu offers a variety of traditional, authentic Chinese dishes, and we will deliver to your home, office, school or banquet hall.</p>
                 </section>
                 <aside className={styles.contact}>
                     <div className={styles.contactSection}>
-                        <h1>Phone</h1>
+                        <h1 className={styles.contactHeader}>Phone</h1>
                         <p>540.898.0088</p>
                     </div>
                     <div className={styles.contactSection}>
-                        <h1>Location</h1>
+                        <h1 className={styles.contactHeader}>Location</h1>
                         <p>11027 Leavells Rd</p>
                         <p>Fredericksburg, VA 22407</p>
                     </div>
                     <div className={styles.contactSection}>
-                        <h1>Hours</h1>
+                        <h1 className={styles.contactHeader}>Hours</h1>
                         <p><b>Sun-Thu</b> 11a-10p</p>
                         <p><b>Sat-Fri</b> 11a-11p</p>
                     </div>

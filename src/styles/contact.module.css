@@ -19,7 +19,7 @@
     width: 60%;
 }
 
-.aboutInfo p {
+.aboutParagraph {
     margin: 1rem 0;
 }
 
@@ -31,10 +31,10 @@
 }
 
 .contactSection {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
-.contactSection h1 {
+.contactHeader {
     margin-bottom: .5rem;
 }
 
@@ -43,12 +43,12 @@
     justify-content: center;
     align-items: center;
 
-    height: 80%;
+    height: 50%;
     width:100%;
 }
 
 @media screen and (max-width: 1210px) {
-    h1 {
+    .contactHeader {
         font-size: 1.25rem;
     }
 

@@ -2,8 +2,12 @@ import React, { Component } from "react";
 import styles from "./mobile-layout.module.css";
 import { Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import "../../../node_modules/@fortawesome/fontawesome-svg-core/styles.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fab, faBars);
 
 class MobileLayout extends Component {
     constructor(props) {

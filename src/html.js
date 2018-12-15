@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import favicon from "../static/favicon.ico";
 
 export default class HTML extends React.Component {
   render() {
@@ -12,6 +13,7 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <link rel="icon" type="image/ico" href={favicon} />
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>

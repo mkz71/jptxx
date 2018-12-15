@@ -3,8 +3,6 @@ import { Helmet } from "react-helmet";
 import Layout from "../components/Layout/layout.js";
 import styles from "../styles/contact.module.css";
 
-console.log(styles);
-
 const Contact = () => (
     <Layout>
         <Helmet>
@@ -25,17 +23,17 @@ const Contact = () => (
                 <aside className={styles.contact}>
                     <div className={styles.contactSection}>
                         <h1 className={styles.contactHeader}>Phone</h1>
-                        <p>540.898.0088</p>
+                        <p className={styles.contactParagraph}>540.898.0088</p>
                     </div>
                     <div className={styles.contactSection}>
                         <h1 className={styles.contactHeader}>Location</h1>
-                        <p>11027 Leavells Rd</p>
-                        <p>Fredericksburg, VA 22407</p>
+                        <p className={styles.contactParagraph}>11027 Leavells Rd</p>
+                        <p className={styles.contactParagraph}>Fredericksburg, VA 22407</p>
                     </div>
                     <div className={styles.contactSection}>
                         <h1 className={styles.contactHeader}>Hours</h1>
-                        <p><b>Sun-Thu</b> 11a-10p</p>
-                        <p><b>Sat-Fri</b> 11a-11p</p>
+                        <p className={styles.contactParagraph}><b>Sun-Thu</b> 11a-10p</p>
+                        <p className={styles.contactParagraph}><b>Sat-Fri</b> 11a-11p</p>
                     </div>
                 </aside>
             </div>
@@ -45,7 +43,7 @@ const Contact = () => (
                     height="4000"
                     frameborder="0"
                     style={{ width: "100%", height: "100%", border: 0 }}
-                    allowfullscreen>
+                    allowFullScreen>
                 </iframe>
             </section>
         </div>

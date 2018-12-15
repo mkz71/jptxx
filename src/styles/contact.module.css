@@ -31,11 +31,17 @@
 }
 
 .contactSection {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .contactHeader {
     margin-bottom: .5rem;
+
+    font-size: 1.25rem;
+}
+
+.contactParagraph {
+    margin: 0;
 }
 
 .contactMap {

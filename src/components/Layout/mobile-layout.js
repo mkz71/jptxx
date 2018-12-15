@@ -25,7 +25,7 @@ class MobileLayout extends Component {
             <div className={styles.container}>
                 <nav className={styles.navigation}>
                     <h1 className={styles.brand}>FORMOSA CAFE</h1>
-                    <button className={styles.toggle} onClick={this.handleNavToggle}>
+                    <button aria-label="Navigation menu" className={styles.toggle} onClick={this.handleNavToggle}>
                         <FontAwesomeIcon icon="bars" size="2x" />
                     </button>
                     <ul className={this.state.collapsed ? styles.navMenu_collapsed : styles.navMenu}>

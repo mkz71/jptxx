@@ -33,9 +33,9 @@ class MobileLayout extends Component {
                         <FontAwesomeIcon icon="bars" size="2x" />
                     </button>
                     <ul className={this.state.collapsed ? styles.navMenu_collapsed : styles.navMenu}>
-                        <Link to="/" className={styles.link}>Home</Link>
-                        <Link to="/menu" className={styles.link}>Menu</Link>
-                        <Link to="/contact/" className={styles.link}>Contact Us</Link>
+                        <Link to="/" className={this.state.collapsed ? styles.link_collapsed : styles.link}>Home</Link>
+                        <Link to="/menu" className={this.state.collapsed ? styles.link_collapsed : styles.link}>Menu</Link>
+                        <Link to="/contact/" className={this.state.collapsed ? styles.link_collapsed : styles.link}>Contact Us</Link>
                     </ul>
                 </nav>
                 <main className={styles.content}>

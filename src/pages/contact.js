@@ -4,6 +4,14 @@ import styles from "../styles/contact.module.css";
 
 const Contact = () => (
     <Layout>
+        <Helmet>
+            <Title>Formosa Cafe</Title>
+            <meta 
+                name="description"
+                content="Formosa Cafe is the Fredericksburg, VA area’s best restaurant for 
+                take-out and delivery authentic Chinese food. Since 1996, our family-owned 
+                and operated restaurant serves a delectable menu that boasts over 125 dishes."/>
+        </Helmet>
         <div className={styles.contactContainer}>
             <div className={styles.about}>
                 <section className={styles.aboutInfo}>

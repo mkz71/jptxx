@@ -59,7 +59,7 @@
 
     overflow: hidden;
 
-    transition: height .5s ease;
+    transition: height .25s ease;
 }
 
 .navMenu_collapsed {
@@ -67,7 +67,7 @@
     height: 0px;
     width: 100%;
 
-    transition: height .5s ease;
+    transition: height .25s ease;
 }
 
 .link {

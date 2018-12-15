@@ -14,7 +14,8 @@ module.exports = {
                 pathToConfigModule: `src/utils/typography.js`
             }
         },
-        `gatsby-plugin-netlify-cms`
+        `gatsby-plugin-netlify-cms`,
+        `gatsby-plugin-react-helmet`
     ]
 }
 

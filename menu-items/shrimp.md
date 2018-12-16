@@ -1,8 +1,7 @@
 ---
 path: Shrimp
 title: Shrimp
-category: Egg Foo Young
+category: Fried Rice/Chow Mein/Lo Mein
 price: '7.25'
-description: ''
 ---
 

@@ -42,7 +42,7 @@ const Menu = ({ data }) => {
                             {
                                 data.allMarkdownRemark.edges.map(element => {
                                     const { title, price, smallPrice, description, category } = element.node.frontmatter;
-                                    if (category === section.title) {
+                                    if (category === section.title && section.title !== "Combo") {
                                         return (
                                             <div className={styles.menuItem}>
                                             <span className={styles.itemHeader}>
@@ -52,7 +52,19 @@ const Menu = ({ data }) => {
                                                 <p className={styles.price}>{price}</p>
                                             </span>
                                             {description ? <p className={styles.description}>{description}</p> : ""}
-                                        </div>
+                                            </div>
+                                        )
+                                    }
+                                    else if (category === section.title && section.title === "Combo") {
+                                        return (
+                                            <div className={styles.menuItem}>
+                                            <span className={styles.itemHeader}>
+                                                <h1 className={styles.itemName}>{title}</h1>
+                                                smallPrice ? <p className={styles.price}>L: {smallPrice}</p> : ""
+                                                <p className={styles.price}>D: {price}</p>
+                                            </span>
+                                            {description ? <p className={styles.description}>{description}</p> : ""}
+                                            </div>
                                         )
                                     }
                                 })

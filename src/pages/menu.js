@@ -60,7 +60,7 @@ const Menu = ({ data }) => {
                                             <div className={styles.menuItem}>
                                             <span className={styles.itemHeader}>
                                                 <h1 className={styles.itemName}>{title}</h1>
-                                                smallPrice ? <p className={styles.price}>L: {smallPrice}</p> : ""
+                                                {smallPrice ? <p className={styles.price}>L: {smallPrice}</p> : ""}
                                                 <p className={styles.price}>D: {price}</p>
                                             </span>
                                             {description ? <p className={styles.description}>{description}</p> : ""}

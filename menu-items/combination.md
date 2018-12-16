@@ -1,7 +1,7 @@
 ---
 path: Combination
 title: Combination
-category: Egg Foo Young
+category: Fried Rice/Chow Mein/Lo Mein
 price: '7.25'
 description: 'Made with shrimp, chicken, and beef'
 ---

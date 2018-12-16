@@ -1,6 +1,6 @@
 ---
-path: Chicken/Beef/Roast Pork/Pork/Vegetables
-title: Chicken/Beef/Roast Pork/Pork/Vegetables
+path: Chicken/Beef/Roast Pork/Pork/Vegetable
+title: Chicken/Beef/Roast Pork/Pork/Vegetable
 category: Egg Foo Young
 price: '6.75'
 description: 'Choice of chicken, beef, roast pork, pork, or vegetable.'

@@ -1,7 +1,8 @@
 ---
-path: 12 Chicken with Vegetables
-title: 12 Chicken with Vegetables
+path: Chicken with Vegetables
+title: Chicken with Vegetables
 category: Combo
+comboNumber: '12'
 smallPrice: '5.25'
 price: '7.75'
 ---

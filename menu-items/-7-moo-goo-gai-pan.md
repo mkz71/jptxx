@@ -1,7 +1,8 @@
 ---
-path: 8 Moo Goo Gai Pan
-title: 8 Moo Goo Gai Pan
+path: Moo Goo Gai Pan
+title: Moo Goo Gai Pan
 category: Combo
+comboNumber: '8'
 smallPrice: '5.25'
 price: '7.25'
 ---

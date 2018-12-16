@@ -41,7 +41,7 @@ const Menu = ({ data }) => {
                             </header>
                             {
                                 data.allMarkdownRemark.edges.map(element => {
-                                    const { title, price, smallPrice, description, category } = element.node.frontmatter;
+                                    const { title, comboNumber, price, smallPrice, description, category } = element.node.frontmatter;
                                     if (category === section.title && section.title !== "Combo") {
                                         return (
                                             <div className={styles.menuItem}>
@@ -59,7 +59,7 @@ const Menu = ({ data }) => {
                                         return (
                                             <div className={styles.menuItem}>
                                             <span className={styles.itemHeader}>
-                                                <h1 className={styles.itemName}>{title}</h1>
+                                                <h1 className={styles.itemName}>#{comboNumber} {title}</h1>
                                                 {smallPrice ? <p className={styles.price}>L: {smallPrice}</p> : ""}
                                                 <p className={styles.price}>D: {price}</p>
                                             </span>
@@ -79,7 +79,9 @@ const Menu = ({ data }) => {
 
 export const query = graphql`
     query menuQuery {
-        allMarkdownRemark {
+        allMarkdownRemark(
+            sort: {fields:frontmatter___comboNumber, order:ASC}
+          ) {
             edges {
               node {
                 frontmatter {

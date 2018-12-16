@@ -1,8 +1,10 @@
 ---
-path: Sesame Chicken
+path: 36 Sesame Chicken
 title: Sesame Chicken
-category: House Specialties
-price: '9.75'
-smallPrice: '6.75'
+category: Combo
+comboNumber: 36
+smallPrice: '5.75'
+price: '8.95'
+description: ''
 ---
 

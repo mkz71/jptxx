@@ -86,6 +86,7 @@ export const query = graphql`
                   title
                   path
                   category
+                  comboNumber
                   price
                   smallPrice
                   description

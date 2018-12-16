@@ -18,7 +18,7 @@ const Menu = ({ data }) => {
         { title: "Fried Rice/Chow Mein/Lo Mein", subheader: "Choice of combination, shrimp, chicken, beef, or pork" },
         { title: "Egg Foo Young", subheader: "Served with white rice and gravy" },
         { title: "American", subheader: "Served with fried Rice or french fries or steamed broccoli" },
-        { title: "Combo", subheader: "Lunch (11AM - 3PM) served with egg roll, fried rice, & can of soda || Dinner served with egg roll, fried rice, & small soup" }
+        { title: "Combo", subheader: "Please order by number! Served with egg roll and fried rice. Lunch (11AM - 3PM) includes can of soda || Dinner includes small soup" }
     ]
 
     return (

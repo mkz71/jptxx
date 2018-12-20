@@ -1,9 +1,9 @@
 ---
-path: Shrimp with Broccoli
+path: 24 Shrimp with Broccoli
 title: Shrimp with Broccoli
-category: Seafood
-price: '9.75'
-smallPrice: '7.25'
-description: ''
+category: Combo
+comboNumber: 24
+smallPrice: '5.95'
+price: '8.95'
 ---
 

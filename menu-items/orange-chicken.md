@@ -1,8 +1,9 @@
 ---
-path: Orange Chicken
+path: 23 Orange Chicken
 title: Orange Chicken
-category: House Specialties
-price: '9.75'
-smallPrice: '6.75'
+category: Combo
+comboNumber: 23
+smallPrice: '5.75'
+price: '8.95'
 ---
 

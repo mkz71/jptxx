@@ -1,8 +1,9 @@
 ---
-path: Beef with Broccoli
+path: 21 Beef with Broccoli
 title: Beef with Broccoli
-category: Beef
-price: '8.95'
-description: ''
+category: Combo
+comboNumber: 21
+smallPrice: '5.50'
+price: '8.15'
 ---
 

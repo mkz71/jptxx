@@ -1,8 +1,9 @@
 ---
-path: Chicken with Broccoli
+path: 22 Chicken with Broccoli
 title: Chicken with Broccoli
-category: Poultry
-price: '7.95'
-description: ''
+category: Combo
+comboNumber: 22
+smallPrice: '5.25'
+price: '7.75'
 ---
 

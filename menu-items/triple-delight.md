@@ -1,9 +1,9 @@
 ---
-path: Triple Delight
+path: 20 Triple Delight
 title: Triple Delight
-category: Seafood
-price: '9.75'
-smallPrice: '7.25'
-description: 'Shrimp, beef and chicken sautéed with Chinese vegetables in brown sauce'
+category: Combo
+comboNumber: 20
+smallPrice: '5.95'
+price: '8.95'
 ---
 

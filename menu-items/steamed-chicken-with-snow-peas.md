@@ -1,7 +1,7 @@
 ---
 path: Steamed Chicken with Snow Peas
 title: Steamed Chicken with Snow Peas
-category: Steamed
+category: Weight Watchers
 price: '7.95'
 ---
 

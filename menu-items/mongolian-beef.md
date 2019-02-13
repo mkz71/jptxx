@@ -2,6 +2,6 @@
 path: Mongolian Beef
 title: Mongolian Beef
 category: House Specialties
-price: '9.95'
+price: '10.95'
 ---
 

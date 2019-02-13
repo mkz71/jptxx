@@ -5,41 +5,48 @@ html, body {
 
 @keyframes fadeInFromTop {
     from {
-      transform: translateY(-50%);
-      opacity: 0;
+        transform: translateY(-50%);
+        opacity: 0;
     }
     to {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
 }
 
 .hero {
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
-
     height: 100%;
     width: 100%;
-
     background-image: url("../images/food.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-} 
+}
 
 .heroImage {
     height: 100%;
     width: 100%;
-
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .heroText {
     animation-duration: 1s;
     animation-name: fadeInFromTop;
-
     font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #222;
+    color: #DDD;
+}
+
+.heroSubtitle {
+    animation-duration: 1s;
+    animation-name: fadeInFromTop;
+    font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px #222;
@@ -49,7 +56,9 @@ html, body {
 @media screen and (max-width: 995px) {
     .heroText {
         padding: .5rem;
-
         font-size: 1.75rem;
+    }
+    .heroSubtitle {
+        font-size: 1.25rem;
     }
 }

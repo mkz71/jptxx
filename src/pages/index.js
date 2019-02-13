@@ -19,6 +19,7 @@ export default ({ data }) => (
       <h1 className={styles.heroText}>
         Serving fantastic Chinese food since 1996
       </h1>
+      <p className={styles.heroSubtitle}>Voted best Chinese Food</p>
     </div>
   </Layout>
 );

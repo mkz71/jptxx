@@ -15,7 +15,7 @@ const Menu = ({ data }) => {
     { title: "Pork", subheader: "Served with white rice" },
     { title: "Vegetable", subheader: "Served with white rice" },
     {
-      title: "Steamed",
+      title: "Weight Watchers",
       subheader: "Served with white rice and brown sauce on the side"
     },
     {

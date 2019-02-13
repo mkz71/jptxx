@@ -5,29 +5,51 @@ backend:
 media_folder: static/assets
 public_folder: assets
 
-collections: 
+collections:
   - name: menu
     label: Menu Items
     folder: menu-items
     create: true
-    fields: 
+    fields:
       - { name: path, label: Path }
       - { name: title, label: Title }
-      - { name: category, label: Category, widget: select, 
-          options: ["Soup",
-                    "Appetizer", 
-                    "House Specialties", 
-                    "Seafood", 
-                    "Poultry",
-                    "Beef",
-                    "Pork",
-                    "Vegetable",
-                    "Steamed",
-                    "Fried Rice/Chow Mein/Lo Mein",
-                    "Egg Foo Young",
-                    "American",
-                    "Combo"] }
-      - { name: comboNumber, label: Number (for combos), widget: number, valueType: "int", required: false}
-      - { name: smallPrice, label: Small Size Price (optional), required: false}
-      - { name: price, label: Large Size Price}
-      - { name: description,  label: Item Description, widget: markdown, required: false }
+      - {
+          name: category,
+          label: Category,
+          widget: select,
+          options:
+            [
+              "Soup",
+              "Appetizer",
+              "House Specialties",
+              "Seafood",
+              "Poultry",
+              "Beef",
+              "Pork",
+              "Vegetable",
+              "Steamed",
+              "Fried Rice/Chow Mein/Lo Mein",
+              "Egg Foo Young",
+              "American",
+              "Combo",
+            ],
+        }
+      - {
+          name: comboNumber,
+          label: Number (for combos),
+          widget: number,
+          valueType: "int",
+          required: false,
+        }
+      - {
+          name: smallPrice,
+          label: Small Size Price (optional),
+          required: false,
+        }
+      - { name: price, label: Large Size Price }
+      - {
+          name: description,
+          label: Item Description,
+          widget: markdown,
+          required: false,
+        }

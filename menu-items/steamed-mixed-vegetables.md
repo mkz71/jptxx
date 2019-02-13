@@ -1,7 +1,7 @@
 ---
 path: Steamed Mixed Vegetables
 title: Steamed Mixed Vegetables
-category: Steamed
+category: Weight Watchers
 price: '6.75'
 ---
 

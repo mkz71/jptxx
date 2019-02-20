@@ -19,7 +19,7 @@ const Contact = () => (
         <section className={styles.aboutInfo}>
           <h1 className={styles.contactHeader}>
             Formosa Cafe is the Fredericksburg, VA area’s best restaurant for
-            take-out and delivery authentic Chinese food.
+            take-out and delivery of authentic Chinese food.
           </h1>
           <p className={styles.aboutParagraph}>
             Since 1996, our family-owned and operated restaurant serves a

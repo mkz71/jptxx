@@ -1,5 +1,5 @@
 # Formosa Cafe
-A static website built using GatsbyJS to display menu and hours for a local restaurant
+A static website built using GatsbyJS linked to Netlify CMS to display menu and hours for a local restaurant
 
 ### Built With
 

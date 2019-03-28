@@ -1,27 +1,22 @@
 .container {
     display: flex;
     flex-direction: row;
-    
     height: 100vh;
     width: 100vw;
     max-height: 100%;
     max-width: 100%;
-
     overflow: hidden;
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     /* align-items: center; */
-
     height: 100%;
     width: 20%;
-
     background-color: #dd6363;
     box-shadow: 2px 0 5px #261111;
-
     transform: translateX(0%);
     transition: all 1s ease;
 }
@@ -36,7 +31,6 @@
     border-style: solid;
     border-color: #301515;
     margin-bottom: 2rem;
-
     font-size: 2.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -44,25 +38,21 @@
 
 .subheader {
     margin: 1rem 0;
-
     font-size: 1.1rem
 }
 
 .navigation {
     display: flex;
     flex-direction: column;
-
     margin: 0 auto;
     padding: 1rem 1rem 3rem 1rem;
     max-width: 100%;
-
 }
 
 .link {
     font-size: 1.25rem;
     color: #1c1c1c;
     text-decoration: none;
-
     transition: all .25s ease;
 }
 
@@ -72,12 +62,9 @@
 
 .content {
     order: 10;
-
     height: 100%;
     width: 80%;
-
     background-color: #ffe2cc;
-
     overflow: auto;
 }
 
@@ -85,7 +72,6 @@
     .brand {
         font-size: 1.75rem;
     }
-
     .subheader {
         font-size: 1rem;
     }

@@ -12,7 +12,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    /* align-items: center; */
     height: 100%;
     width: 20%;
     background-color: #dd6363;
@@ -47,6 +46,7 @@
     margin: 0 auto;
     padding: 1rem 1rem 3rem 1rem;
     max-width: 100%;
+    z-index: 10;
 }
 
 .link {
@@ -64,7 +64,7 @@
     order: 10;
     height: 100%;
     width: 80%;
-    background-color: #ffe2cc;
+    /* background-color: #ffe2cc; */
     overflow: auto;
 }
 

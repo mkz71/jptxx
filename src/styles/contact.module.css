@@ -1,8 +1,13 @@
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #ffe2cc;
+}
+
 .contactContainer {
     padding: 5% 10%;
     height: 100%;
     width: 100%;
-    background-color: #ffe2cc;
 }
 
 .about {
@@ -61,6 +66,8 @@
     }
     .about {
         border: none;
+        margin: 0;
+        margin-top: 1rem;
     }
     .aboutInfo {
         min-width: 100%;

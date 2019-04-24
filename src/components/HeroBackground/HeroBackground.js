@@ -16,7 +16,6 @@ const HeroBackground = ({ children, className }) => (
       }
     `}
     render={data => {
-      console.log('DATA', data);
       // Set ImageData.
       const imageData = data.file.childImageSharp.fluid;
       return (

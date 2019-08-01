@@ -5,6 +5,6 @@ category: Combo
 comboNumber: 31
 smallPrice: '5.95'
 price: '7.75'
-description: 'Choice of chicken, beef, or vegetable.'
+description: 'Choice of chicken, roasted pork, or vegetable.'
 ---
 

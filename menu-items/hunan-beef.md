@@ -2,6 +2,6 @@
 path: Hunan Beef
 title: Hunan Beef
 category: Beef
-price: '8.95'
+price: '9.25'
 ---
 

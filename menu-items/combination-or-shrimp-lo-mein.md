@@ -1,5 +1,5 @@
 ---
-path: 30 Combination or Shrimp Lo Mein
+path: 30 Combination or Shrimp or Beef Lo Mein
 title: Combination or Shrimp or Beef Lo Mein
 category: Combo
 comboNumber: 30

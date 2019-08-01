@@ -3,7 +3,7 @@ path: Hunan Beef
 title: Hunan Beef
 category: Combo
 comboNumber: 13
-smallPrice: '5.50'
-price: '8.15'
+smallPrice: '6.25'
+price: '8.95'
 ---
 

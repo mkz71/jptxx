@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: mkz71/jptxx
+  name: git-gateway
+  branch: master
 
 media_folder: static/assets
 public_folder: assets

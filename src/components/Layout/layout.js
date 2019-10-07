@@ -36,8 +36,8 @@ class Layout extends Component {
                 <div className={styles.container}>
                     <div className={styles.sidebar}>
                         <nav className={styles.navigation}>
-                            <h1 className={styles.brand}>FORMOSA CAFE</h1>
-                            <p className={styles.subheader}>A family-owned restaurant serving authentic and traditional Chinese dishes.</p>
+                            <h1 className={styles.brand}>JP THAI EXPRESS</h1>
+                            <p className={styles.subheader}>A family-owned restaurant serving authentic and traditional Thai dishes.</p>
                             <Link to="/" className={styles.link}>Home</Link>
                             <Link to="/menu"className={styles.link}>Menu</Link>
                             <Link to="/contact/"className={styles.link}>Contact Us</Link>

@@ -37,11 +37,11 @@ const Menu = ({ data }) => {
   return (
     <Layout>
       <Helmet>
-        <title>Formosa Cafe</title>
+        <title>JP Thai Express</title>
         <meta
           name='description'
-          content='Formosa Cafe is the Fredericksburg, VA area’s best restaurant for 
-                    take-out and delivery for authentic Chinese food. Since 1996, our family-owned 
+          content='JP Thai Express is the Jamaica Plain, MA area’s best restaurant for 
+                    take-out and delivery for authentic Thai food. Since 2019, our family-owned 
                     and operated restaurant serves a delectable menu that boasts over 125 dishes.'
         />
       </Helmet>

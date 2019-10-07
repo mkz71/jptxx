@@ -40,7 +40,9 @@ class Layout extends Component {
                             <p className={styles.subheader}>A family-owned restaurant serving authentic and traditional Thai dishes.</p>
                             <Link to="/" className={styles.link}>Home</Link>
                             <Link to="/menu"className={styles.link}>Menu</Link>
-                            <Link to="/contact/"className={styles.link}>Contact Us</Link>
+                            <Link to="/catering"className={styles.link}>Catering</Link>
+                            <Link to="/giftcard"className={styles.link}>Gift Cards</Link>
+                            <Link to="/contact/"className={styles.link}>Hours & Location</Link>
                         </nav>
                     </div>
                     <main className={styles.content}>

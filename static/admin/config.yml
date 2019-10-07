@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: AerialWombat/restaurant-website
+  repo: mkz71/jptxx
 
 media_folder: static/assets
 public_folder: assets

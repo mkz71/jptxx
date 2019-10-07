@@ -28,7 +28,7 @@ class MobileLayout extends Component {
         return (
             <div className={styles.container}>
                 <nav className={styles.navigation}>
-                    <h1 className={styles.brand}>FORMOSA CAFE</h1>
+                    <h1 className={styles.brand}>JP Thai Express</h1>
                     <button aria-label="Navigation menu" className={styles.toggle} onClick={this.handleNavToggle}>
                         <FontAwesomeIcon icon="bars" size="2x" />
                     </button>

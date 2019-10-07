@@ -2,6 +2,6 @@
 path: Shrimp
 title: Shrimp
 category: Fried Rice/Chow Mein/Lo Mein
-price: '7.95'
+price: '8.95'
 ---
 

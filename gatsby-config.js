@@ -28,7 +28,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-149514152-1',
+        trackingId: "UA-149514152-1",
         // Puts tracking script in the head instead of the body
         head: false,
         // Setting this parameter is optional
@@ -36,7 +36,7 @@ module.exports = {
         // Setting this parameter is also optional
         respectDNT: true,
         // Avoids sending pageview hits from custom paths
-        exclude: ['/preview/**', '/do-not-track/me/too/'],
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Any additional create only fields (optional)
         sampleRate: 5,
         siteSpeedSampleRate: 10,

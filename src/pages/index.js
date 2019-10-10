@@ -22,6 +22,15 @@ export default ({ data }) => (
           Serving fantastic Thai food since 2019
         </h1>
         <p className={styles.heroSubtitle}>Best Thai Food</p>
+        <h1 className={styles.heroText}>
+          <br/>
+        </h1>
+        <p className={styles.heroSubtitle}>
+        TEL. 617.983.1388
+        </p>
+        <p className={styles.heroSubtitle}>
+        3704 Washington St. Jamaica Plain, MA 02130
+        </p>        
       </div>
     </HeroBackground>
   </Layout>

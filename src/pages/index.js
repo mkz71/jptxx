@@ -25,12 +25,15 @@ export default ({ data }) => (
         <h1 className={styles.heroText}>
           <br/>
         </h1>
-        <p className={styles.heroSubtitle}>
+        <p className={styles.heroSubtitle2}>
         TEL. 617.983.1388
         </p>
-        <p className={styles.heroSubtitle}>
-        3704 Washington St. Jamaica Plain, MA 02130
-        </p>        
+        <p className={styles.heroSubtitle2}>
+        3704 Washington St.
+        </p>
+        <p className={styles.heroSubtitle2}>
+        Jamaica Plain, MA 02130
+        </p>
       </div>
     </HeroBackground>
   </Layout>

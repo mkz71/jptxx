@@ -5,21 +5,21 @@ module.exports = {
       options: {
         name: 'menu-items',
         path: `${__dirname}/menu-items`
-      }
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'images',
         path: `${__dirname}/src/images`
-      }
+      },
     },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography.js`
-      }
+      },
     },
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
@@ -39,10 +39,10 @@ module.exports = {
         exclude: ['/preview/**', '/do-not-track/me/too/'],
         // Any additional create only fields (optional)
         sampleRate: 5,
-        siteSpeedSampleRate: 10
-      }
-    }
-  ]
+        siteSpeedSampleRate: 10,
+      },
+    },
+  ],
 };
 
 //gatsby-plugin-sharp, gatsby-transformer-sharp, gatsby-image

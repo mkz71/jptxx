@@ -74,7 +74,7 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/catering/index.md"
         label: "Catering"
-        name: "menu"
+        name: "catering"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "catering-page"}
           - {label: "Title", name: "title", widget: "string"}

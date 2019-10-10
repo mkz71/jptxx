@@ -57,7 +57,7 @@ html, body {
     animation-duration: 1s;
     animation-name: fadeInFromTop;
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px #222;
     color: #DDD;

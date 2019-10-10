@@ -26,13 +26,9 @@ export default ({ data }) => (
           <br/>
         </h1>
         <p className={styles.heroSubtitle2}>
-        TEL. 617.983.1388
-        </p>
-        <p className={styles.heroSubtitle2}>
-        3704 Washington St.
-        </p>
-        <p className={styles.heroSubtitle2}>
-        Jamaica Plain, MA 02130
+        <br/>617.983.1388
+        <br/>3704 Washington St.
+        <br/>Jamaica Plain, MA 02130
         </p>
       </div>
     </HeroBackground>

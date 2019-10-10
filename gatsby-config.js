@@ -4,21 +4,21 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'menu-items',
-        path: `${__dirname}/menu-items`
+        path: `${__dirname}/menu-items`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'images',
-        path: `${__dirname}/src/images`
+        path: `${__dirname}/src/images`,
       },
     },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-        pathToConfigModule: `src/utils/typography.js`
+        pathToConfigModule: `src/utils/typography.js`,
       },
     },
     `gatsby-plugin-netlify-cms`,

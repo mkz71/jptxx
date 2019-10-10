@@ -39,8 +39,8 @@ class Layout extends Component {
                             <h1 className={styles.brand}>JP THAI EXPRESS</h1>
                             <p className={styles.subheader}>A family-owned restaurant serving authentic and traditional Thai dishes.</p>
                             <Link to="/" className={styles.link}>Home</Link>
-                            <Link to="/menu" className={styles.link}>Menu</Link>
-                            <Link to="/catering" className={styles.link}>Catering</Link>
+                            <Link to="../menu" className={styles.link}>Menu</Link>
+                            <Link to="../catering" className={styles.link}>Catering</Link>
                             <Link to="/giftcard" className={styles.link}>Gift Cards</Link>
                             <Link to="/online" className={styles.link}>Order Online</Link>
                             <Link to="/contact/" className={styles.link}>Hours & Location</Link>

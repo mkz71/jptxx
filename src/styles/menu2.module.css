@@ -1,0 +1,87 @@
+.container {
+    background-color: #ffe2cc;
+}
+
+.menuSection {
+    padding: 2.5% 5%;
+    margin-bottom: 2rem;
+}
+
+.sectionHeader {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin-bottom: 2rem;
+}
+
+.sectionTitle {
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    font-size: 2.5rem;
+    border-bottom: 1px solid #ddb1b1;
+}
+
+.sectionSubheader {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.menuItem {
+    padding-bottom: .75rem;
+    margin-bottom: .75rem;
+    max-width: 70%;
+    flex: 1 0 100%;
+    border-bottom: 1px solid #ddb1b1;
+}
+
+.itemHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.itemName {
+    width: 70%;
+    margin-bottom: 0 !important;
+    font-size: 1.25rem;
+}
+
+.price {
+    display: inline-block;
+    width: 15%;
+    margin-bottom: 0 !important;
+    font-size: 1.25rem;
+}
+
+.description {
+    margin-bottom: 0 !important;
+    font-style: italic;
+}
+
+@media screen and (max-width: 995px) {
+    .menuSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15% 2.5% 0 2.5%;
+        margin-bottom: 0;
+    }
+    .sectionHeader {
+        width: 100%;
+        max-width: 100%;
+    }
+    .menuItem {
+        padding-bottom: .75rem;
+        margin-bottom: .75rem;
+        width: 100%;
+        max-width: 100%;
+    }
+    .itemName {
+        width: 50%;
+        font-size: 1rem;
+    }
+    .price {
+        width: 25%;
+        font-size: 1rem;
+    }
+}

@@ -42,6 +42,7 @@ class Layout extends Component {
                             <Link to="/menu" className={styles.link}>Menu</Link>
                             <Link to="/catering" className={styles.link}>Catering</Link>
                             <Link to="/giftcard" className={styles.link}>Gift Cards</Link>
+                            <Link to="/online" className={styles.link}>Order Online</Link>
                             <Link to="/contact/" className={styles.link}>Hours & Location</Link>
                         </nav>
                     </div>

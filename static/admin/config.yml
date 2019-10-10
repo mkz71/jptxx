@@ -6,7 +6,7 @@ media_folder: static/assets
 public_folder: assets
 
 collections:
-  - name: menu
+  - name: menu2
     label: Menu Items
     folder: menu-items
     create: true

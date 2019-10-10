@@ -50,10 +50,10 @@ const Contact = () => (
           <div className={styles.contactSection}>
             <h1 className={styles.contactHeader}>Hours</h1>
             <p className={styles.contactParagraph}>
-              <b>Sun-Thu</b> 11a-10p
+              <b>Sun-Tue</b> 12:00pm-10:30pm
             </p>
             <p className={styles.contactParagraph}>
-              <b>Fri-Sat</b> 11a-11p
+              <b>Wed-Sat</b> 12:00pm-11:30pm
             </p>
           </div>
         </aside>

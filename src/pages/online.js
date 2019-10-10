@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import HeroBackground from '../components/HeroBackground/HeroBackground';
 import Layout from '../components/Layout/layout';
-import styles from '../styles/index.module.css';
+import styles from '../styles/online.module.css';
 import '../styles/minireset.css';
 
 export default ({ data }) => (

@@ -37,6 +37,7 @@ class MobileLayout extends Component {
                         <Link to="/menu" className={this.state.collapsed ? styles.link_collapsed : styles.link}>Menu</Link>
                         <Link to="/catering" className={this.state.collapsed ? styles.link_collapsed : styles.link}>Catering</Link>
                         <Link to="/giftcard" className={this.state.collapsed ? styles.link_collapsed : styles.link}>Gift Cards</Link>
+                        <Link to="/online" className={this.state.collapsed ? styles.link_collapsed : styles.link}>Order Online</Link>
                         <Link to="/contact/" className={this.state.collapsed ? styles.link_collapsed : styles.link}>Hours & Location</Link>
                     </ul>
                 </nav>

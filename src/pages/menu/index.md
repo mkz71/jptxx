@@ -2,7 +2,7 @@
 templateKey: menu-page
 title: About our menu
 ---
-### APPETIZERS $5.50
+### APPETIZERS $6.50
 
 **VEGGIE SPRING ROLL**\
 Crispy Thai veggie spring rolls with sweet sauce.
